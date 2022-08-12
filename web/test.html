@@ -1,0 +1,103 @@
+
+  <style>
+    .hidden
+    {
+    }
+    
+    .div-webview-translate
+    {
+      position: absolute;
+      left: 50px;
+      top: 50px;
+      width: 400px;
+      height: 400px;
+      border-style: solid;
+      border-color: #cdcdcd;
+      border-width: 1px;
+      border-radius: 15px;
+      box-shadow: 0 0 10px #444;
+      padding: 7px;
+      background-color: white;
+    }
+    
+    .div-webview-translate-bar 
+    {
+      width: 100%;
+      height: 25px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: bold;
+      font-size: 13px;
+      cursor: pointer;
+    }
+    
+    .div-webview-translate-bar-text 
+    {
+      padding-top: 2px;
+    }
+    
+    .webview-translate
+    {
+      width: 100%;
+      height: 375;
+      border-radius: 15px !important;
+    }
+  </style>
+  
+  <div class='div-webview-translate' >
+    <div class='div-webview-translate-bar' >
+      <div class='div-webview-translate-bar-text' >
+        Close
+      </div>
+    </div>
+    <webview 
+      id="webview-translate" 
+      class="hidden webview-translate" 
+      autosize="on"
+      src="https://github.com"
+    ></webview>
+  </div>
+
+  <script src="jquery-3.6.0.min.js"></script>
+  <script>
+    
+    $(document).ready(function(){
+      
+      console.log('Deus Eh Bom!');
+      
+    });
+    
+    document.addEventListener('mouseup', event => {  
+      if(window.getSelection().toString().length){
+        let exactText = window.getSelection().toString();
+        console.log('texto selecionado: '+ exactText);
+        $.get('https://translate.google.com/?sl=auto&tl=pt&text='+ exactText +'&op=translate', function(data, status){
+          console.log(data);
+        });
+      }
+    });
+    
+  </script>
+
+  <script>
+    var webview = document.getElementById('webview-translate');
+    webview.addEventListener('dom-ready', function () {
+      webview.insertCSS(`
+        ::-webkit-scrollbar {
+          width: 7px !important;
+          height: 7px !important;
+        }
+         
+        ::-webkit-scrollbar-track {
+          background: #ddd !important;
+        }
+         
+        ::-webkit-scrollbar-thumb {
+          background: #26c6da !important; 
+        }
+      `)
+    });
+  </script>
+  
+  
+  
