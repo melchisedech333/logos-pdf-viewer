@@ -408,7 +408,7 @@ See https://github.com/adobe-type-tools/cmap-resources
   
   <!-- Controle... -->
   
-  <button class='open-doc' >Open</button>
+  <!-- <button class='open-doc' >Open</button> -->
   
   <script>
     console.log('Deus É Sancto, Sancto, Sancto!');
@@ -465,7 +465,7 @@ See https://github.com/adobe-type-tools/cmap-resources
       bottom: 0;
       left: 0;
       width: 100%;
-      height: 700px;
+      height: 300px;
 
       border-style: solid;
       border-color: #cdcdcd;
@@ -590,8 +590,15 @@ See https://github.com/adobe-type-tools/cmap-resources
                 id="webview-translate" 
                 class="webview-translate" 
                 autosize="on"
-                src="https://www.bing.com/translator?from=en&to=pt&text=`+ encodeURI(exactText) +`&op=translate" ></webview>
+                src="https://translate.google.com/?sl=auto&tl=pt&text=`+ encodeURI(exactText) +`&op=translate" ></webview>
 
+              <!--
+              <webview 
+                id="webview-translate" 
+                class="webview-translate" 
+                autosize="on"
+                src="https://www.bing.com/translator?from=en&to=pt&text=`+ encodeURI(exactText) +`&op=translate" ></webview>
+              -->
          `);
           
          $('.div-webview-translate').removeClass('div-hidden');
