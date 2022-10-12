@@ -18,19 +18,15 @@
     <img src="https://img.shields.io/github/license/melchisedech333/logos-pdf-viewer" >
 </p>
 
-Language: <a href="readme-pt.md">PT-BR</a>
+Language: <a href="readme.md">EN-US</a>
 
-This is a software made in Javascript and Electron, and its intention is to be a PDF reader with the option to translate parts of the text.
+Este é um software feito em Javascript e Electron, e seu intuito é ser um leitor de PDF com a opção de traduzir partes do texto.
 
-The idea is very simple, I select the text, and when I release the mouse button, it immediately opens a window with the selected text being translated in Google Translate.
+A ideia é muito simples, eu seleciono o texto, e quando solto o botão do mouse, imediatamente abre uma janela com o texto selecionado sendo traduzido no Google Translate.
 
-To use the application, just download the repository, access it and run electron, passing the directory in question as a parameter.
+Para utilizar a aplicação, basta realizar o download do repositório, acessá-lo e executar electron, passando como parâmetro o diretório em questão.
 
-```bash
-electron .
-```
-
-<b>Note:</b> the version of Electron used in the tests is 19.0.0.
+<b>Obs:</b> a versão do Electron utilizada nos testes é a 19.0.0.
 
 **If my code has helped you, please consider [sponsoring me](https://github.com/sponsors/melchisedech333) :blue_heart:** 
 
