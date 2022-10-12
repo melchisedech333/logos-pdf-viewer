@@ -45,7 +45,7 @@ LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152
 
 <br>
 
-:scroll: License
+:scroll: Licença
 ---
 
 [ BSD-3-Clause license](./license)
