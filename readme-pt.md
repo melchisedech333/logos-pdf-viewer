@@ -24,9 +24,9 @@ Este é um software feito em Javascript e Electron, e seu intuito é ser um leit
 
 A ideia é muito simples, eu seleciono o texto, e quando solto o botão do mouse, imediatamente abre uma janela com o texto selecionado sendo traduzido no Google Translate.
 
-Para utilizar a aplicação, basta realizar o download do repositório, acessá-lo e executar electron, passando como parâmetro o diretório em questão.
+Para utilizar a aplicação, basta realizar o download do repositório, acessá-lo e executar o <b>electron</b>, passando como parâmetro o diretório em questão.
 
-<b>Obs:</b> a versão do Electron utilizada nos testes é a 19.0.0.
+A versão do Electron utilizada nos testes é a 19.0.0, e você pode baixar ela aqui: https://github.com/electron/electron/releases/tag/v19.0.0
 
 **If my code has helped you, please consider [sponsoring me](https://github.com/sponsors/melchisedech333) :blue_heart:** 
 

@@ -24,13 +24,13 @@ This is a software made in Javascript and Electron, and its intention is to be a
 
 The idea is very simple, I select the text, and when I release the mouse button, it immediately opens a window with the selected text being translated in Google Translate.
 
-To use the application, just download the repository, access it and run electron, passing the directory in question as a parameter.
+To use the application, just download the repository, access it and run <b>electron</b>, passing the directory in question as a parameter.
 
 ```bash
 electron .
 ```
 
-<b>Note:</b> the version of Electron used in the tests is 19.0.0.
+The Electron version used in the tests is 19.0.0, and you can download it here: https://github.com/electron/electron/releases/tag/v19.0.0
 
 **If my code has helped you, please consider [sponsoring me](https://github.com/sponsors/melchisedech333) :blue_heart:** 
 
