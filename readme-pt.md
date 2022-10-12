@@ -54,7 +54,7 @@ LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152
 
 <div align="center">
 
-## Remember to give me <br> a beautiful little star :star_struck:
+## Lembre-se de deixar <br> uma linda estrelinha :star_struck:
 
 </div>
 
