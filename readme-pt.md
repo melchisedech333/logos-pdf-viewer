@@ -28,14 +28,14 @@ Para utilizar a aplicação, basta realizar o download do repositório, acessá-
 
 A versão do Electron utilizada nos testes é a 19.0.0, e você pode baixar ela aqui: https://github.com/electron/electron/releases/tag/v19.0.0
 
-**If my code has helped you, please consider [sponsoring me](https://github.com/sponsors/melchisedech333) :blue_heart:** 
+**Se meu código te ajudou em algo, considere [ser um patrocinador](https://github.com/sponsors/melchisedech333) :blue_heart:** 
 
 <br>
 
-:smiley: Author
+:smiley: Autor
 ---
 
-Sponsor: [melchisedech333](https://github.com/sponsors/melchisedech333)<br>
+Patrocinar: [melchisedech333](https://github.com/sponsors/melchisedech333)<br>
 YouTube: [Melchisedech](https://www.youtube.com/channel/UC4Sh4wxncr5arnydpUfWPKw)<br>
 Twitter: [Melchisedech333](https://twitter.com/Melchisedech333)<br>
 Blog: [melchisedech333.github.io](https://melchisedech333.github.io/)<br>
