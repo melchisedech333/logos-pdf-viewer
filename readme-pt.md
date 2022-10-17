@@ -36,10 +36,9 @@ A versão do Electron utilizada nos testes é a 19.0.0, e você pode baixar ela 
 ---
 
 Patrocinar: [melchisedech333](https://github.com/sponsors/melchisedech333)<br>
-YouTube: [Melchisedech](https://www.youtube.com/channel/UC4Sh4wxncr5arnydpUfWPKw)<br>
 Twitter: [Melchisedech333](https://twitter.com/Melchisedech333)<br>
+LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152235/)<br>
 Blog: [melchisedech333.github.io](https://melchisedech333.github.io/)<br>
-LinkedIn: [Melchisedech Rex](https://www.linkedin.com/in/melchisedech-rex-724152235/)
 
 <img src="https://github.com/melchisedech333.png?size=200" height="100" />
 
